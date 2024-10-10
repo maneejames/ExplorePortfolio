@@ -1,0 +1,266 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #005C78;
+    font-family: "Silkscreen", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #F3F7EC;
+}
+
+.BG_profile{
+    
+    width: 100%;
+    height: max-content;
+    color: #F3F7EC;
+    font-size: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.MyPicBox{
+    position: relative;
+}
+
+.mypic{
+    width: 800px;
+    position: relative;
+    z-index: 1;
+    right: 100px;
+}
+
+.myarm{
+    width: 800px;
+    z-index: 3;
+    right: 100px;
+    position: absolute;
+    user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.profile_text{
+    padding: 50px;
+}
+
+.BOX {
+    width: 100%;
+    height: 1000px;
+    /* border: solid black ;
+    border-top-width: 5px; */
+}
+
+.MenuBox{
+    position: sticky;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    z-index: 2;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 30px;
+    padding: 10px;
+
+    position: relative;
+    top: -25px;
+    
+    background-color: #E88D67;
+    width: 80%;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 40px 2px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Menutxt{
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+    font-size: 100px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.ABOUT_MEBox{
+    margin-top: 200px;
+    background-color: #F3F7EC;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ABOUTdetail{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.ABOUTpic{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 40px 0px #868686;
+}
+
+.EDUCATIONBox{
+    position: relative;
+}
+
+.EDhead{
+    color: #F3F7EC;
+    position: absolute;
+    left: 38%;
+}
+
+.EDtxt{
+    color: #F3F7EC;
+    position: absolute;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EDpic{
+    width: 200px;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 15px 15px 40px 0px #202020;
+}
+
+.Primary{
+    top: 30%;
+    left: 10%;
+}
+
+.Secondary{
+    top: 50%;
+    left: 40%;
+}
+
+.University{
+    top: 25%;
+    left: 75%;
+}
+
+.SKILLBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: #202020;
+    background-color: #F3F7EC;
+}
+
+.skilltxtbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillcontent{
+    width: 45%;
+    height: 90%;
+    background-color: #E88D67;
+    padding: 30px;
+    margin-top: 70px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: #202020;
+    color: #202020;
+}
+
+.headskill{
+    font-size: 50px;
+    margin: 0px;
+}
+
+.detailskill{
+    font-size: 40px;
+}
+
+.Codingbox{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Coding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Codinglogo{
+    width: 190px;
+    height: 180px;
+}
+
+.CONTACTBox{
+    color: #F3F7EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.aws {
+    width: 500px;
+}
+
+.Outerboxcontact{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.boxcontact{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+}

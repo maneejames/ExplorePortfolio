@@ -72,8 +72,6 @@ a{
 .BOX {
     width: 100%;
     height: 1000px;
-    /* border: solid black ;
-    border-top-width: 5px; */
 }
 
 .MenuBox{
@@ -145,7 +143,7 @@ a{
 .EDhead{
     color: #F3F7EC;
     position: absolute;
-    left: 38%;
+    left: 35%;
 }
 
 .EDtxt{
@@ -166,17 +164,17 @@ a{
 
 .Primary{
     top: 30%;
-    left: 10%;
+    left: 5%;
 }
 
 .Secondary{
-    top: 50%;
-    left: 40%;
+    top: 45%;
+    left: 38%;
 }
 
 .University{
     top: 25%;
-    left: 75%;
+    left: 73%;
 }
 
 .SKILLBox{

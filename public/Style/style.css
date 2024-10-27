@@ -110,6 +110,7 @@ a{
     font-size: 100px;
     margin-top: 120px;
     margin-bottom: 0;
+
 }
 
 .ABOUT_MEBox{
@@ -178,23 +179,28 @@ a{
 }
 
 .SKILLBox{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     color: #202020;
     background-color: #F3F7EC;
+    text-align: center;
+}
+
+.SKILLBox .heading{
+    padding-top: 75px;
+    width: 100%;
 }
 
 .skilltxtbox{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    height: fit-content;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .skillcontent{
-    width: 45%;
-    height: 90%;
+    width: 75%;
+    height: 500px;
     background-color: #E88D67;
     padding: 30px;
     margin-top: 70px;
@@ -202,6 +208,35 @@ a{
     border: 3px solid;
     border-color: #202020;
     color: #202020;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.previous{
+    width: 70px;
+    height: 70px;
+    background-color: #005C78;
+    color: #F3F7EC;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+
+.next{
+    width: 70px;
+    height: 70px;
+    background-color: #005C78;
+    color: #F3F7EC;
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 280px;
+    transform: translateY(50%);
+    cursor: pointer;
 }
 
 .headskill{
